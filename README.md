@@ -6,9 +6,9 @@ This is a Linux **5.4.12** kernel source for Banana Pi R2 (BPI-R2) which include
 
 #### A - Install Prebuilts
 
-+ [Debian Image](https://www.dropbox.com/scl/fi/5c5uolnzutb90bsakjwnv/atheros-csitool.img.xz?rlkey=6jsz6tr7bsqjkqgf2048m2gyv&st=jplaytd1&dl=1) (Jan 09, 2020, 5.4.2 Kernel)\
++ [Debian Image](https://github.com/wldhg/ath9k-csitool-r2/releases/download/prebuilt-images/atheros-csitool.img.xz) (Jan 09, 2020, 5.4.2 Kernel)\
   This image is a result of `dd` of 8GB sdcard and only kernel is installed. ID: `root` \ PWD: `bananapi`. I recommend you to install the *Build Output* below after install this image on your SD card.
-+ [Debian Appready Image](https://www.dropbox.com/scl/fi/rkks7alwv0mviupx2mb1l/atheros-csitool-full.img.xz?rlkey=c59245ie259nymi5yvox125b8&st=zagdwxnm&dl=1) (Jan 11, 2020, 5.4.2 Kernel)\
++ [Debian Appready Image](https://github.com/wldhg/ath9k-csitool-r2/releases/download/prebuilt-images/atheros-csitool-full.img.xz) (Jan 11, 2020, 5.4.2 Kernel)\
   This is also an image of 8GB sdcard, and all prerequisites are installed. ID: `momo` \ PWD: `momo`.\
   Default shell is [fish](https://fishshell.com/) shell, you can change it to `bash` by typing `chsh momo /bin/bash`.\
   There is CSI-Collector app on home directory. To use them, `git pull` on that directory and read [this readme](https://github.com/wldhg/ath9k-csitool-apps).\
